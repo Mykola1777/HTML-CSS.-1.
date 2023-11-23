@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Рогач Микола</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            background-color: #4CAF50; /* Змінено фоновий колір на зелений */
+            color: #000000; /* Змінено колір тексту на чорний */
+            font-weight: bold; /* Додано жирний шрифт для всього тексту */
+        }
+
+        header {
+            text-align: left;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        h1,
+        p {
+            margin-bottom: 10px;
+            color: #000000; /* Змінено колір тексту на чорний */
+            font-weight: bold; /* Додано жирний шрифт для тексту */
+        }
+
+        .title-info {
+            margin-left: 20px;
+        }
+
+        h2 {
+            color: #000000; /* Змінено колір тексту на чорний */
+            border-bottom: 2px solid #000000; /* Додано виділення для заголовку h2 */
+            padding-bottom: 5px; /* Додано відступ для кращого вигляду */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .experience,
+        .education,
+        .achievements,
+        .hobbies {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px; /* Додано закруглення кутів для виділення */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Додано тінь для виділення */
+        }
+
+        .experience,
+        .education,
+        .hobbies {
+            border: 2px solid #000000; /* Додано чорну обводку для вікна */
+            padding: 15px; /* Додано відступи для вікна */
+            border-radius: 5px; /* Додано закруглення кутів для вікна */
+            background-color: #fff; /* Додано білий фон для вікна */
+        }
+
+        .experience {
+            font-weight: bold; /* Зроблено текст жирним для виділення */
+        }
+
+        .education {
+            font-style: italic;
+        }
+
+        .achievements,
+        .technical-skills,
+        .contact-info {
+            font-weight: bold; /* Додано жирний шрифт для виділення */
+            padding: 15px; /* Додано відступи для вікна */
+            border: 2px solid #000000; /* Додано чорну обводку для вікна */
+            border-radius: 5px; /* Додано закруглення кутів для вікна */
+            background-color: #fff; /* Додано білий фон для вікна */
+        }
+
+        .achievements {
+            margin-top: 20px;
+        }
+
+        .photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .photo+.title-info {
+            margin-left: 20px;
+        }
+
+        .photo+.title-info+h1+p {
+            margin-top: -10px;
+            margin-left: 0;
+        }
+
+        .achievements-text {
+            margin-bottom: 20px;
+        }
+
+        .right-section {
+            flex: 1;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Новий стиль для розділу "Хобі" */
+        .hobbies {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px; /* Додано закруглення кутів для виділення */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Додано тінь для виділення */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Замініть це посилання на ваше фото -->
+        <img src="https://charisma.ua/image/cache/catalog/products/omnicore/2976132905156/1-1100x1400.jpg"
+            alt="Фото" class="photo">
+        <div class="title-info">
+            <h1>Рогач Микола</h1>
+            <p>Професійний в галузі Кібербезпеки</p>
+        </div>
+    </header>
+
+    <section class="right-section contact-info">
+        <h2>Контактна інформація</h2>
+        <ul>
+            <li>Телефон: 0978996756, 0669779673</li>
+            <li>Електронна пошта: rogach.m@gmail.com</li>
+            <li>LinkedIn: linkedin.com/in/rogach</li>
+        </ul>
+    </section>
+
+    <section class="right-section technical-skills">
+        <h2>Технічні навички</h2>
+        <ul>
+            <li>Програмування на Java, Python, С++</li>
+            <li>Аналіз та оптимізація алгоритмів</li>
+            <li>Безпека мереж та застосунків</li>
+        </ul>
+    </section>
+
+    <section class="right-section experience">
+        <h2>Досвід роботи</h2>
+        <div>
+            <p>Системний адміністратор, SecureNet, Ltd.</p>
+            <p>Березень 2016 - Теперішній час</p>
+            <ul>
+                <li>Відповідальний за забезпечення кібербезпеки мережі компанії.</li>
+                <li>Впровадження заходів для виявлення та запобігання кібератак.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="right-section education">
+        <h2>Освіта</h2>
+        <div>
+            <p>Магістр інформаційної безпеки</p>
+            <p>Нціональний Технічний Університет, Київ</p>
+            <p>Вересень 2014 - Липень 2019</p>
+        </div>
+    </section>
+
+    <section class="right-section achievements">
+        <h2>Досягнення</h2>
+        <div class="achievements-text">
+            <ul>
+                <li>Впровадження системи двофакторної автентифікації для всіх користувачів мережі.</li>
+                <li>Нагорода за визначний внесок у підвищення кібербезпеки компанії.</li>
+                <li>Автор статті "Нові виклики в кібербезпеці" у фаховому журналі.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Новий розділ "Хобі" -->
+    <section class="right-section hobbies">
+        <h2>Хобі</h2>
+        <div class="hobbies">
+            <p><strong>Моє хобі - грати, співати та танцювати.</strong></p>
+            <p>Відділяючись від роботи в галузі кібербезпеки, я знаходжу вихід у своєму хобі. Музика є моєю великою
+                страстю, і я не тільки слухаю різні жанри музики, але також сам активно творюю. Граю на гітарі,
+                вивчаю нові музичні інструменти та розвиваю свої вокальні навички.</p>
+            <p>Крім музики, я захоплююся танцями. Вивчаю різні танцювальні стилі, від класичних до сучасних, і беру
+                участь у танцювальних заходах. Танець для мене - це не просто фізична активність, але і вираз
+                мистецтва та спосіб виразити свої почуття.</p>
+            <p>У вільний час я також люблю гру в настільні ігри та відвідую різноманітні культурні події та концерти.
+                Це допомагає мені розслабитися, зарядитися позитивною енергією та розширювати свій світогляд.</p>
+        </div>
+    </section>
+</body>
+
+</html>
